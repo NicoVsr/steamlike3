@@ -1,4 +1,5 @@
 <?php
+
 include 'header.php';
 ?>
 
@@ -11,7 +12,7 @@ include 'header.php';
 	<div class="row">
 		<div class="col-lg-12">
 			<h1 class="page-header">Profil
-				<small>(Pseudo)</small>
+				<small>(<?php echo $_SESSION['pseudo'];?>)</small>
 			</h1>
 		</div>
 	</div>
@@ -25,30 +26,14 @@ include 'header.php';
 		</div>
 
 		<div class="col-md-8">
-			<?php
-			// lancement de la requête (on impose aucune condition puisque l'on désire obtenir la liste complète des propriétaires
-			$sql = 'SELECT telephone, nom FROM liste_proprietaire';
-
-			// on lance la requête (mysql_query) et on impose un message d'erreur si la requête ne se passe pas bien (or die)
-			$req = mysql_query($sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
-
-			// on va scanner tous les tuples un par un
-			while ($data = mysql_fetch_array($req)) {
-				// on affiche les résultats
-				echo 'Nom : '.$data['nom'].'<br />';
-				echo 'Son tél : '.$data['telephone'].'<br /><br />';
-			}
-			mysql_free_result ($req);
-			mysql_close ();
-			?>
 			<h3>Description</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
 			<h3>Infos</h3>
 			<ul style="list-style: none;display: inline;">
-				<li>Nom :</li>
-				<li>Prénom :</li>
-				<li>E-mail :</li>
-				<li>date de Naissance :</li>
+				<li>Nom : <?php echo $_SESSION['nom'];?></li>
+				<li>Prénom :  <?php echo $_SESSION['prenom'];?></li>
+				<li>E-mail : <?php echo $_SESSION['mail'];?></li>
+				<li>date de Naissance : <?php echo $_SESSION['naissance'];?></li>
 			</ul>
 		</div>
 
