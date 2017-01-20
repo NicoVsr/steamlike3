@@ -3,13 +3,13 @@ session_start();
 include('header.php');
 ?>
 
-<div style="padding-top: 30px" class="container">
+<div class="container">
 
 	<!-- Portfolio Item Heading -->
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header">Portfolio Item
-				<small>Item Subheading</small>
+			<h1 class="page-header">Profil
+				<small>(Pseudo)</small>
 			</h1>
 		</div>
 	</div>
@@ -18,19 +18,19 @@ include('header.php');
 	<!-- Portfolio Item Row -->
 	<div class="row">
 
-		<div class="col-md-8">
-			<img class="img-responsive" src="http://placehold.it/500x250" alt="">
+		<div class="col-md-4">
+			<img class="img-responsive" src="http://placehold.it/200x200" alt="">
 		</div>
 
-		<div class="col-md-4">
-			<h3>Project Description</h3>
+		<div class="col-md-8">
+			<h3>Description</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-			<h3>Project Details</h3>
-			<ul>
+			<h3>Infos</h3>
+			<ul style="list-style: none;display: inline;">
 				<li>Nom :</li>
 				<li>Prénom :</li>
-				<li>Pseudo :</li>
-				<li>mail :</li>
+				<li>E-mail :</li>
+				<li>date de Naissance :</li>
 			</ul>
 		</div>
 
@@ -41,62 +41,52 @@ include('header.php');
 	<div class="row">
 
 		<div class="col-lg-12">
-			<h3 class="page-header">Related Projects</h3>
+			<h3 class="page-header">Jeux Possédés</h3>
 		</div>
 
-		<div class="col-sm-3 col-xs-6">
+		<div class="col-sm-2 col-xs-6 infosjeu">
 			<a href="#">
 				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+				<div class="nomdujeu">
+					Nom du Jeu
+					<br/>
+					Type de jeu
+				</div>
 			</a>
 		</div>
 
-		<div class="col-sm-3 col-xs-6">
+		<div class="col-sm-2 col-xs-6 infosjeu">
 			<a href="#">
 				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+				<div class="nomdujeu">
+					Nom du Jeu
+				</div>
 			</a>
 		</div>
 
-		<div class="col-sm-3 col-xs-6">
+		<div class="col-sm-2 col-xs-6 infosjeu">
 			<a href="#">
 				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+				<div class="nomdujeu">
+					Nom du Jeu
+				</div>
 			</a>
 		</div>
 
-		<div class="col-sm-3 col-xs-6">
+		<div class="col-sm-2 col-xs-6 infosjeu">
 			<a href="#">
 				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+				<div class="nomdujeu">
+					Nom du Jeu
+				</div>
 			</a>
 		</div>
-
-	</div>
-
-	<div class="row">
-
-		<div class="col-lg-12">
-			<h3 class="page-header">Related Projects</h3>
-		</div>
-
-		<div class="col-sm-3 col-xs-6">
+		<div class="col-sm-2 col-xs-6 infosjeu">
 			<a href="#">
 				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-			</a>
-		</div>
-
-		<div class="col-sm-3 col-xs-6">
-			<a href="#">
-				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-			</a>
-		</div>
-
-		<div class="col-sm-3 col-xs-6">
-			<a href="#">
-				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-			</a>
-		</div>
-
-		<div class="col-sm-3 col-xs-6">
-			<a href="#">
-				<img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+				<div class="nomdujeu">
+					Nom du Jeu
+				</div>
 			</a>
 		</div>
 
@@ -105,7 +95,8 @@ include('header.php');
 
 	<hr>
 
-	<?php
-session_start();
-include('footer.php');
-?>
+	<!-- Footer -->
+	<footer>
+	</footer>
+
+</div>
