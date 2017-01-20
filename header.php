@@ -3,7 +3,11 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-
+<?php
+// on se connecte à notre base
+$base = mysql_connect ('', 'login', 'pass');
+mysql_select_db ('ma_base', $base) ;
+?>
 <html>
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
