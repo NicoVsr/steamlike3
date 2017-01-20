@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
     <list default="true" id="55c4833f-8477-4c95-90f0-84e4d5bc241f" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
 =======
     <list default="true" id="51330be3-9095-4e6f-a2e5-a96adb020083" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jeux.php" afterPath="$PROJECT_DIR$/jeux.php" />
+>>>>>>> Stashed changes
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
 >>>>>>> Stashed changes
     </list>
     <ignored path="steamlike3.iws" />
@@ -35,7 +40,11 @@
   <component name="FileEditorManager">
     <leaf>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
+=======
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
+>>>>>>> Stashed changes
         <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -73,6 +82,19 @@
         </entry>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> Stashed changes
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,6 +123,7 @@
 <<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
@@ -224,6 +247,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484903963301</updated>
+<<<<<<< Updated upstream
       <workItem from="1484903964630" duration="301000" />
 =======
       <changelist id="51330be3-9095-4e6f-a2e5-a96adb020083" name="Default" comment="" />
@@ -233,12 +257,19 @@
       <updated>1484904181839</updated>
       <workItem from="1484904183195" duration="360000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1484903964630" duration="453000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="301000" />
+=======
+    <option name="totallyTimeSpent" value="453000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -331,6 +362,14 @@
         <state relative-caret-position="-15">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
 >>>>>>> Stashed changes
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
           <folding />
         </state>
       </provider>

@@ -34,8 +34,8 @@ session_start();
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Accueil</a></li>
-                        <li><a href="">Profil</a></li>
-                        <li><a href="">Store</a></li>
+                        <li><a href="dashboard.php">Profil</a></li>
+                        <li><a href="store.php">Store</a></li>
                         <li>
                             <form action="deconnexion.php">
                                 <input id="dec" type="submit" value="Déconnexion" class="btn btn-danger"
