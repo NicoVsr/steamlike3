@@ -33,7 +33,7 @@ include 'header.php';
 				<li>Nom : <?php echo $_SESSION['nom'];?></li>
 				<li>Prénom :  <?php echo $_SESSION['prenom'];?></li>
 				<li>E-mail : <?php echo $_SESSION['mail'];?></li>
-				<li>date de Naissance : <?php echo $_SESSION['naissance'];?></li>
+				<li>Date de Naissance : <?php echo $_SESSION['naissance'];?></li>
 			</ul>
 		</div>
 
@@ -80,10 +80,11 @@ include 'header.php';
 				<div class="nomdujeu">
 					<h4>
 						Ligue of Legends
-					</h4>
-				</div>
 			</a>
-			<a href="">MOBA</a>
+					</h4>
+			<a href="">MOBA
+			</a>
+				</div>
 		</div>
 
 		<div class="col-sm-2 col-xs-6 infosjeu">
@@ -91,10 +92,13 @@ include 'header.php';
 				<img class="img-responsive portfolio-item" src="img/callof.jpg" alt="">
 				<div class="nomdujeu">
 					<h4>
-						Call of Duty : Advanced Warfare
+						Call of Duty
 					</h4>
-				</div>
 			</a>
+			<a href="">
+				Action
+			</a>
+				</div>
 		</div>
 
 		<div class="col-sm-2 col-xs-6 infosjeu">
@@ -104,8 +108,11 @@ include 'header.php';
 					<h4>
 						FIFA 17
 					</h4>
-				</div>
 			</a>
+			<a href="">
+				Multijoueur
+			</a>
+				</div>
 		</div>
 
 	</div>
