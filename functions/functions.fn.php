@@ -19,7 +19,8 @@ function userConnect(PDO $db, $pseudo, $pass){
 		$_SESSION['nom'] = $result['nom'];
 		$_SESSION['pseudo'] = $result['pseudo'];
 		$_SESSION['prenom'] = $result['prenom'];
-
+        $_SESSION['mail'] = $result['mail'];
+        $_SESSION['naissance'] = $result['naissance'];
 		return true;
 	}else {
 		return false;
