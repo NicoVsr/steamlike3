@@ -30,10 +30,10 @@ include 'header.php';
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
 			<h3>Infos</h3>
 			<ul style="list-style: none;display: inline;">
-				<li>Nom : <?php echo $_SESSION['nom'];?></li>
-				<li>Prénom :  <?php echo $_SESSION['prenom'];?></li>
-				<li>E-mail : <?php echo $_SESSION['mail'];?></li>
-				<li>Date de Naissance : <?php echo $_SESSION['naissance'];?></li>
+				<li><b>Nom :</b> <?php echo $_SESSION['nom'];?></li>
+				<li><b>Prénom :</b>  <?php echo $_SESSION['prenom'];?></li>
+				<li><b>E-mail :</b> <?php echo $_SESSION['mail'];?></li>
+				<li><b>Date de Naissance :</b> <?php echo $_SESSION['naissance'];?></li>
 			</ul>
 		</div>
 
